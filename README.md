@@ -1,27 +1,10 @@
 # Test your Italian
 ***
 
-## Description
-User is invited to select the correct translation in English among three options of a provided Italian word. Button provided for checking results and which correct/wrong. 
+Quiz game where given an Italian word there are three options to choose for the correct translation in English. Button is present to verify number of correct/wrong answers which will be displayed colored in green/red. 
 
-## Scope
-Practice & Fun
-
-## Code
-* HTML 
-* CSS
-* JavaScript
-
-## Features
-* Form
-* CSS transition
-* Responsive
-* EventListener
-* Elements selection
-* Elements creation
-* Elements style change
-* Loops
-* If condition
+### Screenshot
+![Full preview of the page](/test-your-italian.png)
 
 ## License
 MIT
