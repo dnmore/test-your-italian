@@ -1,41 +1,41 @@
 body {
+  background-color: #f7f9fa;
+  color: #2c3e50;
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  color: #495b66;
-  background: linear-gradient(0.25turn, #0d852f, #ebf8e1, #c7060c);
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-size: 1.5rem;
-  background-color: #fcb900;
-  padding: 10px;
-  color: #ffffff;
-  border-radius: 10px;
-  text-align: center;
 }
 
 #container {
-  width: 200px;
-  margin: 2rem auto;
-  padding: 5%;
-  background-color: #182825;
-  border-radius: 10px;
+  max-width: 20rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
 }
 
 section {
   margin-bottom: 20px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 10px;
   transition: all 0.5s ease;
 }
 
 section:hover {
-  background-color: #deece5;
   margin-right: 40px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+.hero {
+  max-width: 80rem;
+  height: 50vh;
+  margin: 0 auto;
+  background-image: url("img.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .word {
@@ -43,50 +43,27 @@ section:hover {
   font-weight: bold;
   font-size: 1.2rem;
   text-transform: capitalize;
-  color: #ffffff;
-  text-align: center;
-}
-
-input {
-  color: #495b66;
-  cursor: pointer;
 }
 
 .btn {
-  margin: 0 auto;
   text-align: center;
-  padding: 1rem 0;
 }
 
 #submit {
-  padding: 10px 60px;
-  border-radius: 30px;
-  font-size: 1.2rem;
+  padding: 0.5rem 4rem;
   font: inherit;
-  font-weight: bold;
+  color: #2c3e50;
   cursor: pointer;
-  background-color: #182825;
-  border: transparent;
-  color: #ffffff;
+  border: 1px solid #27ae60;
+  background-color: #27ae60;
   transition: all 0.5s ease-in-out;
 }
 
 #submit:hover {
-  background-color: #cf2e2e;
+  background-color: #2ecc71;
 }
 
 #results {
-  margin-top: 10px;
+  padding: 1rem;
   font-weight: bold;
-  color: #000000;
-}
-
-@media (min-width: 768px) {
-  #container {
-    width: 400px;
-    margin: 2rem auto;
-    padding: 5%;
-    background-color: #182825;
-    border-radius: 30px;
-  }
 }
