@@ -97,4 +97,4 @@ var testWords = [
 
 buildTest();
 submitButton.addEventListener("click", showResults);
-resetButton.addEventListener("click", clearTest);
+
